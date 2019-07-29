@@ -6,7 +6,7 @@ switch(myDomainValue) {
   // ...
 }
 ```
-The whole switch-statement will now be marked with an error.
+The whole switch-statement will now be marked with a warning.
 
 ### Why?
 If you are switching on a string you most likely want to re-think your domain model. 
