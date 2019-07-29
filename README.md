@@ -1,5 +1,12 @@
 # Switch-case string analyzer
-A very simple analyzer that reports switch-case statements on `string`s as a warning.
+A very simple analyzer that reports switch-case statements on `string`s as a warning, such as;
+```csharp
+var myDomainValue = "Test";
+switch(myDomainValue) {
+  // ...
+}
+```
+The whole switch-statement will now be marked with an error.
 
 ### Why?
 If you are switching on a string you most likely want to re-think your domain model. 
